@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  background: #ffffff;
+}
+
+.header {
+  background-color: #ffffff;
+  margin: auto -10px;
+  padding: 10px 20px;
+  box-shadow: 0 0 2px 0 rgb(110, 110, 110);
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+
+.header h1 {
+  color: #5f6368;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+form {
+  position: relative;
+  width: 600px;
+  margin: 32px auto 50px auto;
+  background: #fff;
+  padding: 7px;
+  border-radius: 7px;
+  box-shadow: 0 1px 7px rgb(128, 128, 128);
+}
+
+form input {
+  width: 100%;
+  border: none;
+  padding: 4px 10px;
+  margin-bottom: 20px;
+  outline: none;
+  font-size: 1rem;
+  resize: none;
+}
+form textarea {
+  width: 100%;
+  border: none;
+  padding: 4px 10px;
+  outline: none;
+  font-size: 1rem;
+  resize: none;
+}
+
+form button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 18px;
+  bottom: -18px;
+  background: rgb(255, 200, 18);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgb(165, 165, 165);
+  cursor: pointer;
+  outline: none;
+}
+
+.note {
+  background: #ffffff;
+  width: 240px;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px rgb(175, 175, 175);
+  padding: 10px;
+  margin: 16px;
+  float: left;
+  margin-right: 0;
+}
+
+.note h1 {
+  font-size: 1rem;
+  margin-bottom: 6px;
+}
+
+.note p {
+  font-size: 1rem;
+  color: #6f212b;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note button {
+  position: relative;
+  float: right;
+  color: #f88651;
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.count {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.footer {
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
